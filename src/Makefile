@@ -2,8 +2,6 @@ CC=gcc
 
 CFLAGS=-g
 
-PATH := /opt/intel/parallel_studio_xe_2019/vtune_amplifier_2019/bin64/:$(PATH)
-
 all: build test
 
 build: 
